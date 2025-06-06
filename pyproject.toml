@@ -5,6 +5,6 @@ description = "FastAPI web app backend"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "fastapi-users>=14.0.1",
-    "fastapi[all]>=0.115.12",
+    "fastapi-users[sqlalchemy]>=13.0.0,<14",
+    "fastapi[standard]>=0.115.0,<0.116",
 ]
